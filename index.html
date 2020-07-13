@@ -58,6 +58,40 @@
       </div>
     </header>
 
+    <form class="application-form">
+      <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+      <div class="form-field">
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name">
+      </div>
+      
+      <div class="form-field">
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel">
+      </div>
+      
+      <div class="form-field">
+        <label for="mail">Почта</label>
+        <input type="email" name="mail" id="mail">
+      </div>
+      
+      <div class="form-comment">
+        <label for="comment">Комментарий</label>
+        <textarea name="comment" id="comment"></textarea>
+      </div>
+      
+      <div class="form-accept">
+        <input type="checkbox" name="policy" id="policy">
+        <label for="">Соглашаюсь с рассылкой и принимаю
+          <a href="#" class="accept-link">Условия договора</a>
+        </label>
+      </div>
+
+      <div class="form-button">
+        <button type="submit" class="application-button">Отправить</button>
+      </div>
+    </form>
+
     <main>
       <!-- Hero -->
       <div class="hero-image">
@@ -458,9 +492,9 @@
             <h4 class="footer-sign sign-margin">Подпишитесь на рассылку</h4>
             <form action="">
               <div class="form-footer">
-                <label for="customer-mail">E-mail</label>
-                <input type="email" name="email" name="customer-mail" id="customer-mail"/>
-                <button class="button-footer">
+                <label for="customer-mail"></label>
+                <input type="email" name="email" name="customer-mail" id="customer-mail" placeholder="E-mail"/>
+                <button class="button-footer" type="submit">
                   Подписаться
                   <svg class="icon-footer">
                     <use href="./img/icon-send.svg"></use>
