@@ -60,6 +60,11 @@
 
     <div class="backdrop ">
       <div class="modal">
+        <button class="modal-close-button">
+          <svg>
+            <use href="./img/sprite-form.svg#icon-form-close"></use>
+          </svg>
+        </button>
         <form class="application-form">
           <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
           <div class="form-field">
@@ -93,13 +98,14 @@
           </div>
         
           <div class="form-comment">
-            <textarea class="form-input " name="comment" id="comment" placeholder=" "></textarea>
+            <textarea class="form-input textarea" name="comment" id="comment" placeholder=" "></textarea>
             <label for="comment" class="comment-label">Комментарий</label>
           </div>
         
           <div class="form-accept">
-            <input type="checkbox" name="policy" id="policy">
-            <label for="">Соглашаюсь с рассылкой и принимаю
+            <input class="checkbox" type="checkbox" name="policy" id="policy"> 
+            <span class="checkbox-icon"></span>
+            <label  for="policy" class="checkbox-label">Соглашаюсь с рассылкой и принимаю
               <a href="#" class="accept-link">Условия договора</a>
             </label>
           </div>
