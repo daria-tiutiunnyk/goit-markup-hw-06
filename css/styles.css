@@ -57,6 +57,10 @@
   background-color: var(--primary-background-color);
 }
 
+.modal-close-button:hover {
+  color: var(--accent-color);
+}
+
 .application-button {
   width: 200px;
   height: 50px;
