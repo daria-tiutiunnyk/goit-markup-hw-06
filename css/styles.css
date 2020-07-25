@@ -182,6 +182,10 @@
   color: var(--accent-color);
 }
 
+.form-field:focus .icon-form {
+  color: var(--accent-color);
+}
+
 .form-label {
   position: absolute;
   top: 50%;
