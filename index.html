@@ -58,9 +58,9 @@
       </div>
     </header>
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-button">
+        <button class="modal-close-button" type="button" data-modal-close>
           <svg class="close-icon">
             <use href="./img/sprite-form.svg#icon-form-close"></use>
           </svg>
@@ -123,7 +123,7 @@
       <div class="hero-image">
         <section class="hero">
           <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-          <button type="button" class="main-button">Заказать услугу</button>
+          <button type="button" class="main-button" data-modal-open>Заказать услугу</button>
         </section>
       </div>
 
@@ -533,5 +533,8 @@
       </div>
       
     </footer>
+
+    <script src="./js/modal.js"></script>
+
   </body>
 </html>
